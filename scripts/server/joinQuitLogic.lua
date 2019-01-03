@@ -23,7 +23,7 @@ local printPlayerJoin = function(_, client)
     local clientIP = client.ip;
     local clientGameVersion = client.gameVersion;
 
-    message(string.format("* %s joined to server", clientName));
+    messageAllExpect(string.format("* %s joined to server", clientName), client);
     print(string.format("[JoinQuit] %s joined to server [IP: %s; Version: %s]", clientName, clientIP, clientGameVersion));
 end
 

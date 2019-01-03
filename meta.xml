@@ -8,7 +8,7 @@
 	<script src="configs/server/pickupSpawnPositions.lua" type="server" language="lua"/>
 
 	<!-- Server-Side Utils -->
-	<!-- TODO -->
+	<script src="utils/server/getClientFromPlayer.lua" type="server" language="lua"/>
 
 	<!-- Server-Side Scripts -->
 	<script src="scripts/server/playerSkinsLogic.lua" type="server" language="lua"/>
