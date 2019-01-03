@@ -1,0 +1,34 @@
+<meta>
+	<info author="SalwadoR" description="Just a freeroam. Without magic, without amazing functions. Yay!"/>
+
+	<!-- Server-Side Configs -->
+	<script src="configs/server/playerSkins.lua" type="server" language="lua"/>
+	<script src="configs/server/playerSpawnPositions.lua" type="server" language="lua"/>
+	<script src="configs/server/vehicleSpawnPositions.lua" type="server" language="lua"/>
+	<script src="configs/server/pickupSpawnPositions.lua" type="server" language="lua"/>
+
+	<!-- Server-Side Utils -->
+	<!-- TODO -->
+
+	<!-- Server-Side Scripts -->
+	<script src="scripts/server/playerSkinsLogic.lua" type="server" language="lua"/>
+	<script src="scripts/server/playerSpawnLogic.lua" type="server" language="lua"/>
+	<script src="scripts/server/joinQuitLogic.lua" type="server" language="lua"/>
+
+
+	<!-- Client-Side Configs -->
+	<!-- TODO -->
+
+	<!-- Client-Side Utils -->
+	<!-- TODO -->
+	
+	<!-- Client-Side Scripts -->
+	<!-- TODO -->
+	
+	
+	<!-- Client-Side Files -->
+	<!-- TODO -->
+	
+	<!-- Server-Side Files -->
+	<!-- TODO -->
+</meta>
