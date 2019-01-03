@@ -3,9 +3,9 @@ getClientFromPlayer = function(player)
         return false;
     end
 
-    local syncerID = player.syncer;
-    
+    local syncerID = player.syncer;    
     local allClients = getClients();
+    
     for _, client in ipairs(allClients) do
         if (client.player == player) then 
             return client;
