@@ -3,16 +3,22 @@
 
 	<!-- Server-Side Configs -->
 	<script src="configs/server/playerSkins.lua" type="server" language="lua"/>
+	<script src="configs/server/vehiclesList.lua" type="server" language="lua"/>
+
 	<script src="configs/server/playerSpawnPositions.lua" type="server" language="lua"/>
 	<script src="configs/server/vehicleSpawnPositions.lua" type="server" language="lua"/>
 	<script src="configs/server/pickupSpawnPositions.lua" type="server" language="lua"/>
 
 	<!-- Server-Side Utils -->
+	<script src="utils/server/string.lua" type="server" language="lua"/>
 	<script src="utils/server/getClientFromPlayer.lua" type="server" language="lua"/>
 
 	<!-- Server-Side Scripts -->
 	<script src="scripts/server/playerSkinsLogic.lua" type="server" language="lua"/>
+	<script src="scripts/server/vehiclesListLogic.lua" type="server" language="lua"/>
+
 	<script src="scripts/server/playerSpawnLogic.lua" type="server" language="lua"/>
+	<script src="scripts/server/spawnPlayerVehicleLogic.lua" type="server" language="lua"/>
 	<script src="scripts/server/joinQuitLogic.lua" type="server" language="lua"/>
 
 
@@ -20,7 +26,7 @@
 	<!-- TODO -->
 
 	<!-- Client-Side Utils -->
-	<!-- TODO -->
+	<script src="utils/client/mGUI.lua" type="client" language="lua"/>
 	
 	<!-- Client-Side Scripts -->
 	<!-- TODO -->
